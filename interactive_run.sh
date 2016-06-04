@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+eval "$(weave env)"
 docker run -it --rm=true \
     -p 8080:8080 \
     --privileged=true \
